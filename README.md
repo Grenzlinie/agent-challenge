@@ -10,6 +10,9 @@
 |---|---|---|
 | 比赛 A（DPA部署赛） | https://dptechnology.feishu.cn/wiki/N9STwPrFEiDLXbkSGZxcp4mFn2e | 同一 DPA4C 模型、固定 1024 原子周期体系、单张 PPU，方向为 CUDA 算子迁移与优化；结果正确前提下比完整推理速度；交付源码 patch + 测试结果 + 改动说明 + 复现镜像；比赛页面 https://play.bohrium.com/competitions/dpa |
 | 比赛 B（LLM 部署赛） | https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU | 固定 GLM-5.3-Flash（320B-A18B）MoE 模型与统一 A100 卡额度，优化部署配置提升模型响应指标；评测题为可见的真实线上 query；交付服务镜像 + 启动/运行配置；比赛页面 https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena |
+| 参赛指南 | https://dptechnology.feishu.cn/wiki/NevpwcEEGi2deek51TMcNTvDnAh | 注册 / Token / 赛道入口 |
+
+**评分与轨迹规则**（不看轨迹、自由 Agent 架构、trace 文件上传绕限等）见 [docs/比赛规则说明.md](docs/比赛规则说明.md)。
 
 ## 仓库边界
 
