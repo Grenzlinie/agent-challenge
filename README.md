@@ -11,6 +11,19 @@
 | 比赛 A | https://dptechnology.feishu.cn/wiki/N9STwPrFEiDLXbkSGZxcp4mFn2e | 待补充 |
 | 比赛 B | https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU | 待补充 |
 
+## 仓库边界
+
+本仓库是 **store 仓库**，只负责对齐需求与记录事实：比赛题目解读、方案规格、分工与进度。比赛代码**不放在这里**。
+
+- 每个比赛项目另开独立代码仓库（多个项目则一题一仓），代码仓库只放实现
+- 代码仓库需要读规格时，clone 本仓库并注册为 store：`openspec store register <path> --id agent-challenge --yes`
+- 各项目代码仓库统一登记在下表，避免实现散落后找不到归属：
+
+| 项目 | 代码仓库 | 备注 |
+|---|---|---|
+| 比赛 A | 待创建 | |
+| 比赛 B | 待创建 | |
+
 ## 工具链约定
 
 | 用途 | 工具 |
