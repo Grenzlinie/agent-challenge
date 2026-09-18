@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets & credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Data & large artifacts（数据集、模型权重不入库）
+data/
+datasets/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,42 @@
+schema: spec-driven
+
+context: |
+  Language: Chinese
+  All artifacts must be written in Chinese.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  ## 项目背景
+  本仓库是参加两项比赛的项目管理仓库（非代码仓库），题目于 2026-09-18 20:00 开放：
+  - 比赛 A：https://dptechnology.feishu.cn/wiki/N9STwPrFEiDLXbkSGZxcp4mFn2e
+  - 比赛 B：https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU
+
+  ## 工具链约定
+  - Bohrium 资源管理（文件 / 数据集 / 任务 / 节点）：使用 bohr CLI
+  - 数据集下载：使用 wenyon（wenyon-cli）
+  - 算力资源：使用 trisol 的 arena team（team 待管理员审批，审批前不要阻塞其他工作）
+
+  ## 协作约定
+  - 本仓库是团队的单一事实来源，所有计划、规格、变更都通过 git 共享
+  - 数据集、模型权重等大文件不入库，只在规格中记录来源与获取方式
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
