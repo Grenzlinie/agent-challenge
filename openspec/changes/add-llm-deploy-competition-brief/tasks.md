@@ -7,7 +7,7 @@
 
 ## 2. 跑通基线
 
-- [ ] 2.1 进入比赛页面（https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena）获取官方参考部署与标准化运行环境（验证：参考部署获取成功，环境可用）
+- [ ] 2.1 进入比赛页面（https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena-v1）获取官方参考部署与标准化运行环境（验证：参考部署获取成功，环境可用）
 - [ ] 2.2 跑通官方参考部署并复现基线成绩（验证：服务启动成功，自测得到的响应指标与官方基线成绩可对照）
 
 ## 3. 部署优化迭代
