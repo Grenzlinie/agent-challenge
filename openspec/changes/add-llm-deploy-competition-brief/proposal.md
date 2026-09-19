@@ -23,4 +23,4 @@
 
 - 影响范围仅限 `openspec/` 内的规格与变更目录，以及 README.md 的比赛表格备注。
 - 算力依赖：arena 算力池加入申请已获批（trisol `team join-requests list` 状态 approved）。
-- 赛题原文：https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU ；比赛页面：https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena
+- 赛题原文：https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU ；比赛页面：https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena-v1
