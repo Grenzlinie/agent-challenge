@@ -35,3 +35,10 @@ checkpoints/
 # Logs
 logs/
 *.log
+
+# 赛题工作区（一题一仓，迁出为独立代码仓库前不纳入本 store 仓库）
+llm-challenge-arena-v1/
+dpa4c-nano-lammps-md/
+
+# 飞书文档创作草稿
+draft_*/
