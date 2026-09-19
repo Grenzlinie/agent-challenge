@@ -25,6 +25,7 @@ context: |
   ## 协作约定
   - 本仓库是团队的单一事实来源，所有计划、规格、变更都通过 git 共享
   - 数据集、模型权重等大文件不入库，只在规格中记录来源与获取方式
+  - 各赛题工作区（llm-challenge-arena-v1/、dpa4c-nano-lammps-md/）由负责成员自主推进：OpenSpec 变更 propose 后无需团队评审，可直接 apply / archive；跨赛题或影响他人的改动才需要打招呼
 
 # Per-artifact rules (optional)
 # Add custom rules for specific artifacts.
