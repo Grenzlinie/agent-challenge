@@ -8,8 +8,10 @@
 
 | 比赛 | 链接 | 备注 |
 |---|---|---|
-| 比赛 A（DPA部署赛） | https://dptechnology.feishu.cn/wiki/N9STwPrFEiDLXbkSGZxcp4mFn2e | 同一 DPA4C 模型、固定 1024 原子周期体系、单张 PPU，方向为 CUDA 算子迁移与优化；结果正确前提下比完整推理速度；交付源码 patch + 测试结果 + 改动说明 + 复现镜像；比赛页面 https://play.bohrium.com/competitions/dpa |
-| 比赛 B（LLM 部署赛） | https://dptechnology.feishu.cn/wiki/Pda8wY9NFiXS7xkN75qcESzXnvU | 固定 GLM-5.3-Flash（320B-A18B）MoE 模型与统一 A100 卡额度，优化部署配置提升模型响应指标；评测题为可见的真实线上 query；交付服务镜像 + 启动/运行配置；比赛页面 https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena |
+| 比赛 A（DPA4C Nano 单 PPU 生产部署优化赛） | https://play.bohrium.com/competitions/dpa | 单张 PPU810E 96GB，CuNi/Si/MgO 三材料×三规模，共九题；优化完整 LAMMPS MD 步；正确性全过后按九题三轮配对加速比的几何平均排名；交付 results.json、优化记录、构建材料、日志与真实轨迹，最终提交另需镜像及接口自测。规格：`openspec/changes/propose-dpa-md-official-task/` |
+| 比赛 B（推理服务评测赛／LLM 部署赛） | https://play.bohrium.com/llm-arena/competitions/llm-deploy-arena-v1 | 固定 GLM-5.3-Flash、8×A100-SXM4-80GB；两科能力 points 均须 >95；正式隐藏会话负载按 N@SLO 降序、同档 TPOT 均值升序排名，TPM 不排名；交付 LBG 镜像引用及启动配置 submission.json、真实轨迹。规格：`openspec/changes/propose-llm-serving-official-task/` |
+
+正式口径来自[群内开赛指南](https://dptechnology.feishu.cn/wiki/NevpwcEEGi2deek51TMcNTvDnAh)图片指定的 Playground 任务书。邀请函中的“固定1024原子”及“评测query完全可见”属于旧摘要，不适用于上述正式评测。来源版本和哈希见两份提案的 `sources.md`。开赛时间为 2026-09-18 20:00（Asia/Shanghai）；已读公告和题面未给出确定截止时间。
 
 ## 仓库边界
 
@@ -31,7 +33,7 @@
 | 规格 / 变更管理 | `openspec`（本仓库） |
 | Bohrium 资源（文件 / 数据集 / 任务 / 节点等） | `bohr` CLI |
 | 数据集下载 | `wenyon`（`wenyon-cli`） |
-| 算力资源 / Arena Team | `trisol`（team 待管理员审批） |
+| 算力资源 / Arena Team | `trisol`（审批与配额按各自账号实时查询，不能沿用其他成员状态） |
 
 ## OpenSpec 安装（新成员必读）
 
